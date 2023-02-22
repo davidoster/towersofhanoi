@@ -40,7 +40,7 @@ void tower_of_hanoi(int n)
       }
 
       int disc = pegs[from].top();
-      std::cout << "Move disc " << disc << " from " << from << " to " << to << std::endl;
+      // std::cout << "Move disc " << disc << " from " << from << " to " << to << std::endl;
       pegs[from].pop();
       pegs[to].push(disc);
    }
